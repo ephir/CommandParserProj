@@ -1,0 +1,6 @@
+e:\users\zephir\documents\visual studio 2015\Projects\CommandParser\CommandParser\bin\Debug\CommandParser.exe.config
+e:\users\zephir\documents\visual studio 2015\Projects\CommandParser\CommandParser\bin\Debug\CommandParser.exe
+e:\users\zephir\documents\visual studio 2015\Projects\CommandParser\CommandParser\bin\Debug\CommandParser.pdb
+e:\users\zephir\documents\visual studio 2015\Projects\CommandParser\CommandParser\obj\Debug\CommandParser.exe
+e:\users\zephir\documents\visual studio 2015\Projects\CommandParser\CommandParser\obj\Debug\CommandParser.pdb
+E:\Users\Zephir\Documents\Visual Studio 2015\Projects\CommandParser\CommandParser\obj\Debug\CommandParser.csprojResolveAssemblyReference.cache
