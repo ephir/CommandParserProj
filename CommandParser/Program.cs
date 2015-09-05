@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Media;
-
+using System.Threading;
 
 namespace CommandParser
 {
@@ -95,7 +94,13 @@ namespace CommandParser
         {
             Console.WriteLine();
             Console.WriteLine("Pinging...");
-            SystemSounds.Hand.Play();
+            Console.WriteLine("Please press any key to continue work");
+            while (!(Console.KeyAvailable && Console.ReadKey(true).Key != 0))
+            {
+                Console.Beep();
+                Thread.Sleep(1000);
+            }
+
         }
 
         private static void OutputHelp()
@@ -106,5 +111,4 @@ namespace CommandParser
             Environment.Exit(0);
         }
     }
-
 }
